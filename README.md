@@ -14,3 +14,27 @@ Przed uruchomieniem przykładów musisz mieć zainstalowane Node.js i npm (Node 
 
 ```bash
 npm install
+```
+
+## Uruchamianie przykładów
+W tym repozytorium znajdują się dwa przykłady. Możesz uruchomić je indywidualnie, postępując zgodnie z poniższymi instrukcjami.
+
+### Przykład 1: Planowanie operacji
+Ten przykład symuluje planowanie długotrwałych operacji i powiadamia subskrybentów, gdy operacja zostanie zakończona.
+
+1. Przejdź do katalogu projektu.
+2. Uruchom serwer za pomocą następującego polecenia:
+
+```bash
+node operationScheduling.js
+```
+
+### Przykład 2: Czat w czasie rzeczywistym
+Ten przykład demonstruje aplikację czatu w czasie rzeczywistym za pomocą subskrypcji GraphQL.
+
+1. Przejdź do katalogu projektu.
+2. Uruchom serwer za pomocą następującego polecenia:
+
+```bash
+node realTimeChat.js
+```
